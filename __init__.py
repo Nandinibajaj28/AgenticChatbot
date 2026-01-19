@@ -1,0 +1,1 @@
+from src.LangGraphAgentAI.main import load_langgraph_agenticai_app
