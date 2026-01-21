@@ -58,7 +58,7 @@ Each node reads and writes to a shared **state object**, enabling memory, contro
 
 ## 📦 Installation
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/Nandinibajaj28/AgenticChatbot.git
@@ -69,6 +69,7 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+
 
 
 
