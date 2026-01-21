@@ -4,8 +4,6 @@ A **stateful agentic AI chatbot** built using **LangGraph**, demonstrating how t
 
 This project focuses on **agent orchestration**, **state management**, and **controlled AI behavior**, rather than a simple single-prompt chatbot.
 
----
-
 ## 🚀 Project Overview
 
 **AgenticChatbot** showcases how to build an **agentic AI system** where:
@@ -15,7 +13,7 @@ This project focuses on **agent orchestration**, **state management**, and **con
 
 Using **LangGraph**, the chatbot maintains context, handles branching logic, and executes actions in a controlled, explainable manner.
 
----
+
 
 ## 🧩 Why LangGraph?
 
@@ -32,7 +30,7 @@ This makes it ideal for **agentic systems**, **AI workflows**, and **production-
 
 Each node reads and writes to a shared **state object**, enabling memory, control, and traceability.
 
----
+
 
 ## ✨ Key Features
 
@@ -42,7 +40,6 @@ Each node reads and writes to a shared **state object**, enabling memory, contro
 - 🛠️ **Tool/reasoning separation**
 - 📈 **Scalable agent workflows**
 - 🧪 **Easy experimentation with agent logic**
----
 
 ## 🛠️ Tech Stack
 
@@ -54,7 +51,6 @@ Each node reads and writes to a shared **state object**, enabling memory, contro
 | OpenAI / LLM API / Groq| Reasoning engine |
 | dotenv | Environment management |
 
----
 
 ## 📦 Installation
 
@@ -69,6 +65,7 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+
 
 
 
