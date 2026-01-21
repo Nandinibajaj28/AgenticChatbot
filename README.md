@@ -1,4 +1,4 @@
-# AgenticChatbot 🧠🔗
+# LangGraph: Build Stateful Agentic AI graph
 
 A **stateful agentic AI chatbot** built using **LangGraph**, demonstrating how to design, route, and manage multi-agent workflows using graph-based execution.
 
@@ -30,25 +30,6 @@ LangGraph enables:
 
 This makes it ideal for **agentic systems**, **AI workflows**, and **production-grade AI agents**.
 
----
-
-## 🧠 Architecture (Conceptual)
-
-User Input
-↓
-State Initialization
-↓
-Supervisor / Router Agent
-↓
-┌───────────────┬────────────────┐
-│ Tool Agent │ Reasoning Agent │
-│ (Actions) │ (LLM Logic) │
-└───────────────┴────────────────┘
-↓
-State Update
-↓
-Final Response
-
 Each node reads and writes to a shared **state object**, enabling memory, control, and traceability.
 
 ---
@@ -73,7 +54,7 @@ Each node reads and writes to a shared **state object**, enabling memory, contro
 | Python | Core language |
 | LangGraph | Agentic graph execution |
 | LangChain | LLM abstraction |
-| OpenAI / LLM API | Reasoning engine |
+| OpenAI / LLM API / Groq| Reasoning engine |
 | dotenv | Environment management |
 
 ---
@@ -91,4 +72,5 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+
 
