@@ -42,9 +42,6 @@ Each node reads and writes to a shared **state object**, enabling memory, contro
 - 🛠️ **Tool/reasoning separation**
 - 📈 **Scalable agent workflows**
 - 🧪 **Easy experimentation with agent logic**
-# LangGraph: Build Stateful Agentic AI graph
-
-
 ---
 
 ## 🛠️ Tech Stack
@@ -72,5 +69,6 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+
 
 
